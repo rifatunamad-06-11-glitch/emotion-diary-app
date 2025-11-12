@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFB0B0"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Back icon at the top -->
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:src="@drawable/baseline_arrow_back_24"
+            app:contentDescription="Back"
+            android:layout_marginBottom="12dp"
+            android:clickable="true"
+            android:focusable="true"/>
+
+        <!-- Date -->
+        <TextView
+            android:id="@+id/textViewDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2025-11-11 10:30"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Emotion title -->
+        <TextView
+            android:id="@+id/textViewEmotion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Happy"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Note -->
+        <TextView
+            android:id="@+id/textViewNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Full memo / note goes here. This area can have longer text and will wrap."
+            android:textSize="16sp"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Delete button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:text="Delete Entry"/>
+
+    </LinearLayout>
+</ScrollView>

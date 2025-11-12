@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "139380948291",
+    "project_id": "emotion-diary-app-c873a",
+    "storage_bucket": "emotion-diary-app-c873a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139380948291:android:40906e1f0bb0ee873b43f6",
+        "android_client_info": {
+          "package_name": "com.example.emotiondiaryapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeDvGBtwst3VIf2JC7lKiLP8ZuvcGGOgQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
