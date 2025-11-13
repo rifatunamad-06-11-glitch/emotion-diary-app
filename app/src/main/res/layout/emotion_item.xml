@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="12dp"
-        android:background="#EFB0B0"
+        android:background="#F2B2FD"
         android:orientation="horizontal">
 
         <ImageView
@@ -35,9 +35,9 @@
                 android:id="@+id/textViewEmotion"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Happy"
-                android:textStyle="bold"
-                android:textSize="16sp"/>
+                android:text="What about today!!"
+                android:textSize="16sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textViewNote"
