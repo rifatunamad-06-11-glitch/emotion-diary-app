@@ -44,8 +44,6 @@ class MainActivity : AppCompatActivity() {
         }
 
         // Click "View Diary" card → open AddEmotionActivity (or change to another activity if needed)
-        binding.cardViewDiary.setOnClickListener {
-            startActivity(Intent(this, AddEmotionActivity::class.java))
-        }
+
     }
 }

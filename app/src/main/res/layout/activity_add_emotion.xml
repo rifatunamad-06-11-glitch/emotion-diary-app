@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#EFB0B0"
+    android:background="#FAE1FA"
     tools:context=".ui.AddEmotionActivity">
 
     <ScrollView
@@ -49,6 +49,7 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/editTextEmotion"
                     android:layout_width="match_parent"
+                    android:textColor="@color/black"
                     android:layout_height="wrap_content"
                     android:inputType="textCapWords" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -69,6 +70,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="150dp"
                     android:gravity="top"
+                    android:textColor="@color/black"
                     android:inputType="textMultiLine" />
             </com.google.android.material.textfield.TextInputLayout>
 
