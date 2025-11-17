@@ -42,6 +42,10 @@ class MainActivity : AppCompatActivity() {
         binding.cardAdd.setOnClickListener {
             startActivity(Intent(this, AddEmotionActivity::class.java))
         }
+        binding.groupchat.setOnClickListener {
+            startActivity(Intent(this, SignInActivity::class.java))
+        }
+
 
         // Click "View Diary" card → open AddEmotionActivity (or change to another activity if needed)
 

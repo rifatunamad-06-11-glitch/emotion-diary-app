@@ -12,25 +12,33 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EmotionDiaryApp">
         <activity
+            android:name=".ui.ChatScreenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.SignInActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.EmotionDetailsActivity"
             android:exported="false" />
         <activity
             android:name=".ui.AddEmotionActivity"
             android:exported="false" />
-        <activity
-            android:name=".ui.RegisterActivity"
-            android:exported="false" />
+
         <activity
             android:name=".ui.SplashScreenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name=".ui.MainActivity"
-            android:exported="false"/>
+            android:exported="false" />
     </application>
 
 </manifest>

@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
 
-        android:text="Emotional Diary"
+        android:text="NOTE CHAT"
         android:textColor="#6C63FF"
 
         android:textSize="20sp"
